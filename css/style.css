@@ -1,0 +1,14 @@
+@import url("normalize.css");
+
+body{
+    background-color: yellow;
+}
+
+h1{
+    background-color: pink;
+    color: #f00;
+}
+
+h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
