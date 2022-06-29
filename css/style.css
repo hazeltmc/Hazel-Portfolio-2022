@@ -1,9 +1,17 @@
 @import url("normalize.css");
 
-body{
-    background-color: yellow;
+
+  
+/* -------------------- GLOBAL DEFAULTS */
+*{
+    box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(255, 246, 243);
+}
+
+/* -------------------- HEADINGS AND TYPE */
 h1{
     background-color: pink;
     color: #f00;
@@ -11,4 +19,14 @@ h1{
 
 h1 {
     font-family: "Lucida Console", "Courier New", monospace;
-  }
+}
+
+/* -------------------- LAYOUTS */
+
+/* -------------------- HEADER */
+
+/* -------------------- NAVIGATION */
+
+/* -------------------- FOOTER */
+
+/* -------------------- MODULES */
