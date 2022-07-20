@@ -34,54 +34,63 @@ text-decoration: none;
    
   
 
-    box1{
-    height: 3cm;
-    width: 3cm;
-    border: 1px; 
-    border-color:black;
-    position: right: 10px; left: 0px; top:0px
-    }
+box1{
+height: 6cm;
+width: 6cm;
+position: relative;
+}
 
-   p.solid
-   {border-top-style: solid;
-   border-radius: fill;
-   padding:25px;
-    }
+.box1{
+position: absolute;
+width: 6cm;
+height: 6cm;
+right:20.5%;
+top: 10%;
+
+
+}
+
+
+p.solid{
+border-top-style: solid;
+border-radius: fill;
+padding:25px;
+}
 
 /* -------------------- HEADINGS AND TYPE */
 
 
 h1mainheading{
-    background-color: rgb(255, 255, 255);
-    color: #f00;
-    text-align: left;
-    font-family: 'Work Sans', sans-serif;
-	font-size: 50px;
-	letter-spacing: 0;
-	word-spacing: 0;
-	line-height: 1.0;
-	font-style: normal;
-	font-weight: 700;}
+background-color: rgb(255, 255, 255);
+color: #f00;
+text-align: left;
+font-family: 'Work Sans', sans-serif;
+font-size: 50px;
+letter-spacing: 0;
+word-spacing: 0;
+line-height: 1.0;
+font-style: normal;
+font-weight: 700;}
 
 
 h1{
-        color: rgb(0, 0, 0);
-        font-family: 'Work Sans', sans-serif;
-        font-size: 40px;
-        font-weight: 500;}
+color: rgb(0, 0, 0);
+font-family: 'Work Sans', sans-serif;
+font-size: 40px;
+font-weight: 500;}
     
     
-
 h2{
-    color: rgb(0, 0, 0);
-    font-family: 'Work Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 400;}
+color: rgb(0, 0, 0);
+font-family: 'Work Sans', sans-serif;
+font-size: 30px;
+font-weight: 400;}
 
-h3{color: rgb(0, 0, 0);
-   font-family: 'Work Sans', sans-serif;
-    font-size: 25px;
-    font-weight: 300;}
+h3{
+color: rgb(0, 0, 0);
+font-family: 'Work Sans', sans-serif;
+font-size: 25px;
+font-weight: 300;}
 
    
 
@@ -91,21 +100,20 @@ h3{color: rgb(0, 0, 0);
 
 
 .layout-wide {
-    background-color: rgb(250, 250, 250);
-
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1cm;
-    padding: 3%;
+background-color: rgb(250, 250, 250);
+max-width: 1000px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 1cm;
+padding: 3%;
 }
 
 .content-item {
-
-    max-width:fit-content;
-    height: fit-content;
-    margin-left: 0%;
-    margin-right: 80%;}
+max-width:fit-content;
+height: fit-content;
+margin-left: 0%;
+margin-right: 80%;
+}
 
     
 
