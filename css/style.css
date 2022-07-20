@@ -1,36 +1,52 @@
 @import url("normalize.css");
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet');
   
 /* -------------------- GLOBAL DEFAULTS */
 *{
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
-    body{
-    background-color: rgb(255, 0, 0);
+body{
+background-color: rgb(255, 0, 0);
+margin-left: 1cm;
+margin-right: 1cm;
+margin-bottom: 1cm;
+margin-top:1cm;
 font-size: 15px;
 font-family:'Albert sans' , sans-serif;;
-    }
+}
 
 
-    img{
-    max-width: 100%;
-    max-height: 100;
-    }
+img,
+iframe,
+video {
+max-width: 100%;
+}
+ 
+a {
+color: rgb(228, 104, 104)
+}
 
-   .box1{
-    height: 200px;
-    width: 200px;
-    border: px solid black;
-    position:relative; left: 0px;px; top:0px
+a.hover {
+text-decoration: none;
+}
+   
+  
+
+    box1{
+    height: 3cm;
+    width: 3cm;
+    border: 1px; 
+    border-color:black;
+    position: right: 10px; left: 0px; top:0px
     }
 
    p.solid
    {border-top-style: solid;
    border-radius: fill;
    padding:25px;
-}
+    }
 
 /* -------------------- HEADINGS AND TYPE */
 
@@ -39,29 +55,33 @@ h1mainheading{
     background-color: rgb(255, 255, 255);
     color: #f00;
     text-align: left;
-    font-family: 'Albert sans' , sans-serif;
+    font-family: 'Work Sans', sans-serif;
 	font-size: 50px;
 	letter-spacing: 0;
 	word-spacing: 0;
 	line-height: 1.0;
 	font-style: normal;
-	font-weight: 500;}
+	font-weight: 700;}
 
 
 h1{
         color: rgb(0, 0, 0);
-        font-family: 'Albert Sans', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 40px;
         font-weight: 500;}
     
     
 
 h2{
     color: rgb(0, 0, 0);
-    font-family: 'Albert Sans', sans-serif;
-    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
     font-weight: 400;}
 
-h3{}
+h3{color: rgb(0, 0, 0);
+   font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300;}
 
    
 
@@ -76,6 +96,7 @@ h3{}
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1cm;
     padding: 3%;
 }
 
@@ -84,7 +105,7 @@ h3{}
     max-width:fit-content;
     height: fit-content;
     margin-left: 0%;
-    margin-right: 80%;
+    margin-right: 80%;}
 
     
 
