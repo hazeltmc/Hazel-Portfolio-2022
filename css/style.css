@@ -9,6 +9,8 @@
 
     body{
     background-color: rgb(255, 0, 0);
+font-size: 15px;
+font-family:'Albert sans' , sans-serif;;
     }
 
 
@@ -20,21 +22,23 @@
    .box1{
     height: 200px;
     width: 200px;
-    border: 1px solid black;
-    position:relative; left: 250px;px; top:-15px
+    border: px solid black;
+    position:relative; left: 0px;px; top:0px
     }
 
-   p.solid{border-top-style: solid;
+   p.solid
+   {border-top-style: solid;
    border-radius: fill;
-padding:25px;}
+   padding:25px;
+}
 
 /* -------------------- HEADINGS AND TYPE */
 
 
 h1mainheading{
     background-color: rgb(255, 255, 255);
-    color: #f00;}
-h1mainheading{
+    color: #f00;
+    text-align: left;
     font-family: 'Albert sans' , sans-serif;
 	font-size: 50px;
 	letter-spacing: 0;
@@ -43,13 +47,23 @@ h1mainheading{
 	font-style: normal;
 	font-weight: 500;}
 
+
+h1{
+        color: rgb(0, 0, 0);
+        font-family: 'Albert Sans', sans-serif;
+        font-weight: 500;}
+    
     
 
 h2{
-    color: rgb(0, 0, 0);}
-h2,h3{
+    color: rgb(0, 0, 0);
     font-family: 'Albert Sans', sans-serif;
+    font-size: 20px;
     font-weight: 400;}
+
+h3{}
+
+   
 
 
 /* -------------------- LAYOUTS */
@@ -67,11 +81,12 @@ h2,h3{
 
 .content-item {
 
-    max-width: 1000px;
+    max-width:fit-content;
+    height: fit-content;
     margin-left: 0%;
     margin-right: 80%;
-    margin-top: 10%;
-    padding: 60%,20%,0;}
+
+    
 
 /* -------------------- HEADER */
 
@@ -80,11 +95,11 @@ h2,h3{
 /* -------------------- FOOTER */
 
 /* -------------------- MODULES */
-.Logo{
+.add in section name{
     display: grid;}
     
 @media screen and (min-width: 500px) {
-    .Logo {background-color: rgb(196, 19, 172);
+    add in secion name {background-color: rgb(196, 19, 172);
         grid-template-columns: 20% 80%;}
 }
     
