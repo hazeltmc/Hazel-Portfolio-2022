@@ -14,7 +14,8 @@ margin-right: 1cm;
 margin-bottom: 1cm;
 margin-top:1cm;
 font-size: 15px;
-font-family:'Albert sans' , sans-serif;;
+font-family:'Albert sans' , sans-serif;
+color: yellow;
 }
 
 
@@ -28,24 +29,22 @@ a {
 color: rgb(228, 104, 104)
 }
 
-a.hover {
+a:hover {
 text-decoration: none;
+
 }
    
   
 
-box1{
-height: 6cm;
-width: 6cm;
-position: relative;
-}
+
 
 .box1{
 position: absolute;
 width: 6cm;
 height: 6cm;
-right:20.5%;
-top: 10%;
+right: 0%;
+left: 720px;
+top: -60px;
 
 
 }
@@ -92,6 +91,7 @@ font-family: 'Work Sans', sans-serif;
 font-size: 25px;
 font-weight: 300;}
 
+p{color:red ;}
    
 
 
@@ -113,6 +113,7 @@ max-width:fit-content;
 height: fit-content;
 margin-left: 0%;
 margin-right: 80%;
+position: relative;
 }
 
     
