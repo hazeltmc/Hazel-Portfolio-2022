@@ -25,9 +25,6 @@ video {
     max-width: 100%;
 }
 
-a {
-    color: rgb(228, 104, 104)
-}
 
 a:hover {
     text-decoration: none;
@@ -39,13 +36,12 @@ a:hover {
 
 
 .box1 {
-    position: absolute;
-    width: 6cm;
-    height: 6cm;
+
+    width: 3cm;
+    height: 3cm;
     right: 0%;
     left: 720px;
     top: -60px;
-
 
 }
 
@@ -53,7 +49,9 @@ a:hover {
 p.solid {
     border-top-style: solid;
     border-radius: fill;
-    padding: 25px;
+
+    padding: 0;
+
 }
 
 /* -------------------- HEADINGS AND TYPE */
@@ -64,7 +62,7 @@ h1mainheading {
     color: #f00;
     text-align: left;
     font-family: 'Work Sans', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: 0;
     word-spacing: 0;
     line-height: 1.0;
@@ -99,6 +97,15 @@ p {
     color: red;
 }
 
+a {
+    color: rgb(0, 0, 0);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+}
+
 
 
 /* -------------------- LAYOUTS */
@@ -112,6 +119,7 @@ p {
     margin-right: auto;
     margin-top: 1cm;
     padding: 3%;
+    position: relative;
 }
 
 .content-item {
@@ -126,18 +134,61 @@ p {
 
 /* -------------------- HEADER */
 
+ul {
+    list-style-type: none;
+    margin-top:30px;
+    
+    padding: 0;
+  }
+
+.header-collum {
+    background: #ffffff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    padding: 35px 35px 100px 35px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #000;
+    font-size: 18px;
+    line-height: 1;
+    text-rendering: optimizeLegibility;
+    text-align: left;
+    width: 300px;
+    z-index: 999;
+    list-style: none;
+}
+
+
+.header-image img {
+    max-width: 200px;
+}
+
+
+
+
+@media screen and (min-width:800px) {
+    header {
+        text-align: left;
+    }
+
+
+
+
+    .header-text {
+        text-align: left;
+        
+    }
+
+}
+
 /* -------------------- NAVIGATION */
+
+
+
+
 
 /* -------------------- FOOTER */
 
 /* -------------------- MODULES */
-.add in section name {
-    display: grid;
-}
-
-@media screen and (min-width: 500px) {
-    add in secion name {
-        background-color: rgb(196, 19, 172);
-        grid-template-columns: 20% 80%;
-    }
-}
