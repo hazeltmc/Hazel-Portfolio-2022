@@ -76,7 +76,7 @@ h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     font-weight: 500;
-    
+
 }
 
 
@@ -101,7 +101,7 @@ p {
 a {
     color: rgb(0, 0, 0);
     font-family: 'Work Sans', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
     text-decoration: none;
     list-style: none;
@@ -138,10 +138,10 @@ a {
 
 ul {
     list-style-type: none;
-    margin-top:30px;
-    
+    margin-top: 30px;
+
     padding: 0px;
-  }
+}
 
 .header-collum {
     background: #ffffff;
@@ -160,12 +160,14 @@ ul {
     width: 300px;
     z-index: 999;
     list-style: none;
-    
+
 }
 
 
-.header-image img {
+.header-image img{
     max-width: 200px;
+    
+
 }
 
 
@@ -181,7 +183,7 @@ ul {
 
     .header-text {
         text-align: left;
-        
+
     }
 
 }
