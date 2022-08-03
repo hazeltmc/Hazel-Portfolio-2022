@@ -16,8 +16,17 @@ body {
     font-size: 15px;
     font-family: 'Albert sans', sans-serif;
     color: yellow;
+   
 }
 
+main {    
+    margin-left: 252px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 50px; 
+    min-width: 275px;
+    
+}
 
 img,
 iframe,
@@ -58,14 +67,14 @@ p.solid {
 
 
 h1mainheading {
-    background-color: rgb(255, 255, 255);
+
     color: #f00;
     text-align: left;
     font-family: 'Work Sans', sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     letter-spacing: 0;
     word-spacing: 0;
-    line-height: 50px;
+    line-height: 35px;
     font-style: normal;
     font-weight: 700;
 }
@@ -74,7 +83,7 @@ h1mainheading {
 h1 {
     color: rgb(0, 0, 0);
     font-family: 'Work Sans', sans-serif;
-    font-size: 40px;
+    font-size: 10px;
     font-weight: 500;
 
 }
@@ -101,11 +110,11 @@ p {
 a {
     color: rgb(0, 0, 0);
     font-family: 'Work Sans', sans-serif;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 500;
     text-decoration: none;
     list-style: none;
-    line-height: 50px;
+    line-height: 25px;
 }
 
 
@@ -117,10 +126,7 @@ a {
 .layout-wide {
     background-color: rgb(250, 250, 250);
     max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1cm;
-    padding: 3%;
+    padding: 10%;
     position: relative;
 }
 
@@ -166,6 +172,7 @@ ul {
 
 .header-image img{
     max-width: 200px;
+    align-items: center;
     
 
 }
@@ -173,7 +180,7 @@ ul {
 .logo-box{
     background-color: aquamarine;
     margin-bottom: 5ch;
-    
+    justify-content: center;
 }
 
 
