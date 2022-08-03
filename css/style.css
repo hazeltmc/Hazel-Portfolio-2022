@@ -9,10 +9,7 @@
 
 body {
     background-color: rgb(255, 0, 0);
-    margin-left: 1cm;
-    margin-right: 1cm;
-    margin-bottom: 1cm;
-    margin-top: 1cm;
+    margin: 35px;
     font-size: 15px;
     font-family: 'Albert sans', sans-serif;
     color: yellow;
@@ -20,10 +17,10 @@ body {
 }
 
 main {    
-    margin-left: 252px;
+    margin-left: 250px;
+    margin-top: 35px;
     padding-top: 0;
-    padding-right: 0;
-    padding-left: 50px; 
+    padding-right: 0; 
     min-width: 275px;
     
 }
@@ -68,7 +65,7 @@ p.solid {
 
 h1mainheading {
 
-    color: #f00;
+    color: rgb(5, 0, 0);
     text-align: left;
     font-family: 'Work Sans', sans-serif;
     font-size: 35px;
@@ -127,6 +124,7 @@ a {
     background-color: rgb(250, 250, 250);
     max-width: 1000px;
     padding: 10%;
+    
     position: relative;
 }
 
@@ -171,7 +169,7 @@ ul {
 }
 
 
-.header-image img{
+.header-image {
     max-width: 50px;
 
         display: block;
@@ -182,8 +180,8 @@ ul {
 
 
 .logo-box{
-    margin-top: 15px;
-    margin-bottom: 50px;
+    margin-top: 35px;
+    margin-bottom: 70px;
     justify-content: center;
 }
 
@@ -208,9 +206,13 @@ ul {
 /* -------------------- NAVIGATION */
 
 
+/* -------------------- CONTENT */
+
+.cont
 
 
 
 /* -------------------- FOOTER */
 
 /* -------------------- MODULES */
+
