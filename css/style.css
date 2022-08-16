@@ -137,8 +137,14 @@ a {
     position: relative;
 }
 
-.contentgrid {
+.contentgrid1 {
     columns: 3;
+    column-gap: 5px;
+}
+
+
+.gridproductphoto {
+    columns: 2;
     column-gap: 5px;
 }
 
