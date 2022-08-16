@@ -84,14 +84,6 @@ h2mainheading {
 
 
 h1 {
-    color: rgb(0, 0, 0);
-    font-family: 'Manrope', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-
-p {
     color: rgb(255, 255, 255);
     font-family: 'Manrope', sans-serif;
     font-size: 22px;
@@ -100,6 +92,15 @@ p {
     list-style: none;
     line-height: 25px;
     letter-spacing: 2px;
+}
+
+
+p {
+ color: rgb(255, 255, 255);
+ font-family: 'Manrope', sans-serif;
+ font-size: 20px;
+ font-weight: 400;
+ text-align: right;
 }
 
 a {
@@ -145,9 +146,14 @@ a {
 }
 
 
-.gallery-filters {
-    text-align: left;
+.gallery-filters{
+    text-align: center;
+    display: grid;
+    gap: 15px;
+    margin-bottom: 35px;
 }
+
+
 
 
 
@@ -225,6 +231,7 @@ ul {
 /* -------------------- FOOTER */
 
 .footer { 
-    align-self: baseline;
+text-align: right;
+align-self: right;
 }
 /* -------------------- MODULES */
