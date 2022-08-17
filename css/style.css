@@ -17,6 +17,13 @@ body {
 
 }
 
+@media screen and (min-width: 500px) {
+
+    /* body {
+        background: red;
+    } */
+}
+
 main {
     margin-left: 250px;
     margin-top: 35px;
@@ -190,26 +197,37 @@ ul {
     text-rendering: optimizeLegibility;
     text-align: left;
     align-items: center;
-    width: 250px;
+    width: 100px;
     z-index: 999;
     list-style: none;
 
 }
 
 
+/* this is for bigger than mobile */
+@media screen and (min-width: 500px) {
+
+    .header-collum {
+        width: 250px;
+    }
+
+}
+
+
 .header-image {
-    max-width: 100px;
+    /* max-width: 100px;
     margin-left: 425px;
-    margin-top: 30px;
+    margin-top: 30px; */
 }
 
 
 
 .logo-box {
   
-  margin-left: 10cm;
-  max-width: 100%;
-  position: fixed;
+    position: fixed;
+    max-width: 100px;
+    right: 20px;
+    top: 20px;
   
   
 }
@@ -242,10 +260,15 @@ ul {
 
 /* -------------------- FOOTER */
 
-.footer { 
+footer { 
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
+    right: 20px;
     width: 100%;
     height: 2.5rem;    
+}
+
+footer p {
+    font-size: 12px;
 }
 /* -------------------- MODULES */
