@@ -239,18 +239,27 @@ a {
 
 ul {
     list-style-type: none;
-    margin-top: 30px;
-
+    margin-top: 18px;
     padding: 0px;
 }
 
-.header-collum {
+/* this is for bigger than mobile */
+@media screen and (min-width: 500px) {
+
+    ul {
+        list-style-type: none;
+        margin-top: 30px;
+        padding: 0px;
+    }
+}
+    .header-collum {
     background: #ffffff;
     position: fixed;
     top: 0px;
     left: 0px;
     bottom: 0;
-    padding: 36px;
+    padding-left: 18px;
+    padding-top: 30px;
     overflow-x: hidden;
     overflow-y: auto;
     color: #000;
@@ -259,7 +268,7 @@ ul {
     text-rendering: optimizeLegibility;
     text-align: left;
     align-items: center;
-    width: 180px;
+    width: 165px;
     z-index: 999;
     list-style: none;
 
