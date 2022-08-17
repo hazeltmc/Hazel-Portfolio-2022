@@ -186,7 +186,7 @@ ul {
     overflow-y: auto;
     color: #000;
     font-size: 18px;
-    line-height: 1;
+    line-height: 25px;
     text-rendering: optimizeLegibility;
     text-align: left;
     align-items: center;
