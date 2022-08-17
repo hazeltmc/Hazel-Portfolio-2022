@@ -18,19 +18,19 @@ body {
 
 }
 
-@cmedia screen and (min-width: 500px) {
+@media screen and (min-width: 500px) {
 
     body {
-        background: red;
+       
     } 
 }
 
 main {
-    margin-left: 150px;
+    margin-left: 180px;
     margin-top: 35px;
     padding-top: 0;
     padding-right: 0;
-    min-width: 200px;  
+    min-width: 180px;  
     
 
 }
@@ -84,24 +84,57 @@ h1mainheading {
     color: rgb(5, 0, 0);
     text-align: left;
     font-family: 'Manrope', sans-serif;
+    font-size: 42px;
+    letter-spacing: 0;
+    word-spacing: 0;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* this is for bigger than mobile */
+@media screen and (min-width: 500px) {
+
+    h1mainheading {
+    color: rgb(5, 0, 0);
+    text-align: left;
+    font-family: 'Manrope', sans-serif;
     font-size: 52px;
     letter-spacing: 0;
     word-spacing: 0;
     line-height: 35px;
     font-style: normal;
     font-weight: 400;
+    } 
 }
+
 
 h2mainheading {
     color: rgb(5, 0, 0);
     text-align: left;
     font-family: 'Manrope', sans-serif;
-    font-size: 35px;
+    font-size: 28px;
     letter-spacing: 0;
     word-spacing: 0;
-    line-height: 35px;
+    line-height: 25px;
     font-style: normal;
     font-weight: 500;
+}
+
+/* this is for bigger than mobile */
+@media screen and (min-width: 500px) {
+
+    h2mainheading {
+        color: rgb(5, 0, 0);
+        text-align: left;
+        font-family: 'Manrope', sans-serif;
+        font-size: 35px;
+        letter-spacing: 0;
+        word-spacing: 0;
+        line-height: 35px;
+        font-style: normal;
+        font-weight: 500;
+    } 
 }
 
 
@@ -137,6 +170,8 @@ a {
 
 
 
+
+
 /* -------------------- LAYOUTS */
 
 
@@ -157,11 +192,21 @@ a {
     position: relative;
 }
 
-.contentgrid1 {
-    columns: 3;
+.homecontentgrid {
+    columns: 2;
     column-gap: 5px;
 }
 
+/* this is for bigger than mobile */
+@media screen and (min-width: 500px) {
+
+    .homecontentgrid {
+        columns: 3;
+    column-gap: 5px;
+       
+    }
+
+}
 
 .gridproductphoto {
     columns: 2;
@@ -201,7 +246,7 @@ ul {
     top: 0px;
     left: 0px;
     bottom: 0;
-    padding: 25px;
+    padding: 36px;
     overflow-x: hidden;
     overflow-y: auto;
     color: #000;
@@ -210,7 +255,7 @@ ul {
     text-rendering: optimizeLegibility;
     text-align: left;
     align-items: center;
-    width: 200px;
+    width: 180px;
     z-index: 999;
     list-style: none;
 
@@ -223,7 +268,7 @@ ul {
     .header-collum {
         width: 250px;
         padding: 35px;
-        
+       
     }
 
 }
